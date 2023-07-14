@@ -1,0 +1,25 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/prajesh/my_ws/install/my_robot_interfaces/include/**",
+        "/home/prajesh/my_ws/install/battery_interfaces/include/**",
+        "/home/prajesh/tbot_ws/install/turtlebot3_gazebo/include/**",
+        "/home/prajesh/tbot_ws/install/turtlebot3_fake_node/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/prajesh/slam_ws/src/cpp_nav2_control/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

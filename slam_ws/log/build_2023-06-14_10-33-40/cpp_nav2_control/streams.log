@@ -1,0 +1,26 @@
+[0.035s] Invoking command in '/home/prajesh/slam_ws/build/cpp_nav2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/py_server_test:/home/prajesh/my_ws/install/py_final_project:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/prajesh/slam_ws/build/cpp_nav2_control -- -j8 -l8
+[0.141s] [35m[1mConsolidate compiler generated dependencies of target random_goal_generator[0m
+[0.173s] [ 50%] [32mBuilding CXX object CMakeFiles/random_goal_generator.dir/src/random_wp_gen.cpp.o[0m
+[31.014s] [100%] [32m[1mLinking CXX executable random_goal_generator[0m
+[32.120s] [100%] Built target random_goal_generator
+[32.144s] Invoked command in '/home/prajesh/slam_ws/build/cpp_nav2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/py_server_test:/home/prajesh/my_ws/install/py_final_project:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/prajesh/slam_ws/build/cpp_nav2_control -- -j8 -l8
+[32.220s] Invoking command in '/home/prajesh/slam_ws/build/cpp_nav2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/py_server_test:/home/prajesh/my_ws/install/py_final_project:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/prajesh/slam_ws/build/cpp_nav2_control
+[32.237s] -- Install configuration: ""
+[32.239s] -- Installing: /home/prajesh/slam_ws/install/cpp_nav2_control/lib/cpp_nav2_control/random_goal_generator
+[32.250s] -- Set runtime path of "/home/prajesh/slam_ws/install/cpp_nav2_control/lib/cpp_nav2_control/random_goal_generator" to ""
+[32.250s] -- Up-to-date: /home/prajesh/slam_ws/install/cpp_nav2_control/share/ament_index/resource_index/package_run_dependencies/cpp_nav2_control
+[32.251s] -- Up-to-date: /home/prajesh/slam_ws/install/cpp_nav2_control/share/ament_index/resource_index/parent_prefix_path/cpp_nav2_control
+[32.251s] -- Up-to-date: /home/prajesh/slam_ws/install/cpp_nav2_control/share/cpp_nav2_control/environment/ament_prefix_path.sh
+[32.252s] -- Up-to-date: /home/prajesh/slam_ws/install/cpp_nav2_control/share/cpp_nav2_control/environment/ament_prefix_path.dsv
+[32.252s] -- Up-to-date: /home/prajesh/slam_ws/install/cpp_nav2_control/share/cpp_nav2_control/environment/path.sh
+[32.252s] -- Up-to-date: /home/prajesh/slam_ws/install/cpp_nav2_control/share/cpp_nav2_control/environment/path.dsv
+[32.253s] -- Up-to-date: /home/prajesh/slam_ws/install/cpp_nav2_control/share/cpp_nav2_control/local_setup.bash
+[32.253s] -- Up-to-date: /home/prajesh/slam_ws/install/cpp_nav2_control/share/cpp_nav2_control/local_setup.sh
+[32.253s] -- Up-to-date: /home/prajesh/slam_ws/install/cpp_nav2_control/share/cpp_nav2_control/local_setup.zsh
+[32.254s] -- Up-to-date: /home/prajesh/slam_ws/install/cpp_nav2_control/share/cpp_nav2_control/local_setup.dsv
+[32.254s] -- Installing: /home/prajesh/slam_ws/install/cpp_nav2_control/share/cpp_nav2_control/package.dsv
+[32.255s] -- Up-to-date: /home/prajesh/slam_ws/install/cpp_nav2_control/share/ament_index/resource_index/packages/cpp_nav2_control
+[32.256s] -- Up-to-date: /home/prajesh/slam_ws/install/cpp_nav2_control/share/cpp_nav2_control/cmake/cpp_nav2_controlConfig.cmake
+[32.256s] -- Up-to-date: /home/prajesh/slam_ws/install/cpp_nav2_control/share/cpp_nav2_control/cmake/cpp_nav2_controlConfig-version.cmake
+[32.256s] -- Up-to-date: /home/prajesh/slam_ws/install/cpp_nav2_control/share/cpp_nav2_control/package.xml
+[32.259s] Invoked command in '/home/prajesh/slam_ws/build/cpp_nav2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/py_server_test:/home/prajesh/my_ws/install/py_final_project:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/prajesh/slam_ws/build/cpp_nav2_control

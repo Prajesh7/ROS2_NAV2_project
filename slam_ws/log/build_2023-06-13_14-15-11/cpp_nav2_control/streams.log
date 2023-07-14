@@ -1,0 +1,45 @@
+[0.016s] Invoking command in '/home/prajesh/slam_ws/build/cpp_nav2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/py_server_test:/home/prajesh/my_ws/install/py_final_project:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/prajesh/slam_ws/build/cpp_nav2_control -- -j4 -l4
+[0.041s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.171s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[0.195s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.197s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.202s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.212s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.225s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.277s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.278s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.303s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.458s] -- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+[0.473s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.518s] -- Found nav2_msgs: 1.1.6 (/opt/ros/humble/share/nav2_msgs/cmake)
+[0.828s] -- Found nav2_util: 1.1.6 (/opt/ros/humble/share/nav2_util/cmake)
+[1.098s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.099s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.271s] -- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)
+[1.638s] -- Configuring done
+[1.742s] -- Generating done
+[1.744s] -- Build files have been written to: /home/prajesh/slam_ws/build/cpp_nav2_control
+[1.781s] [ 50%] [32mBuilding CXX object CMakeFiles/random_goal_generator.dir/src/random_wp_gen.cpp.o[0m
+[5.909s] [100%] [32m[1mLinking CXX executable random_goal_generator[0m
+[6.169s] [100%] Built target random_goal_generator
+[6.183s] Invoked command in '/home/prajesh/slam_ws/build/cpp_nav2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/py_server_test:/home/prajesh/my_ws/install/py_final_project:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/prajesh/slam_ws/build/cpp_nav2_control -- -j4 -l4
+[6.213s] Invoking command in '/home/prajesh/slam_ws/build/cpp_nav2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/py_server_test:/home/prajesh/my_ws/install/py_final_project:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/prajesh/slam_ws/build/cpp_nav2_control
+[6.219s] -- Install configuration: ""
+[6.220s] -- Installing: /home/prajesh/slam_ws/install/cpp_nav2_control/lib/cpp_nav2_control/random_goal_generator
+[6.220s] -- Set runtime path of "/home/prajesh/slam_ws/install/cpp_nav2_control/lib/cpp_nav2_control/random_goal_generator" to ""
+[6.220s] -- Installing: /home/prajesh/slam_ws/install/cpp_nav2_control/share/ament_index/resource_index/package_run_dependencies/cpp_nav2_control
+[6.220s] -- Up-to-date: /home/prajesh/slam_ws/install/cpp_nav2_control/share/ament_index/resource_index/parent_prefix_path/cpp_nav2_control
+[6.220s] -- Up-to-date: /home/prajesh/slam_ws/install/cpp_nav2_control/share/cpp_nav2_control/environment/ament_prefix_path.sh
+[6.220s] -- Installing: /home/prajesh/slam_ws/install/cpp_nav2_control/share/cpp_nav2_control/environment/ament_prefix_path.dsv
+[6.220s] -- Up-to-date: /home/prajesh/slam_ws/install/cpp_nav2_control/share/cpp_nav2_control/environment/path.sh
+[6.220s] -- Installing: /home/prajesh/slam_ws/install/cpp_nav2_control/share/cpp_nav2_control/environment/path.dsv
+[6.220s] -- Up-to-date: /home/prajesh/slam_ws/install/cpp_nav2_control/share/cpp_nav2_control/local_setup.bash
+[6.220s] -- Up-to-date: /home/prajesh/slam_ws/install/cpp_nav2_control/share/cpp_nav2_control/local_setup.sh
+[6.221s] -- Up-to-date: /home/prajesh/slam_ws/install/cpp_nav2_control/share/cpp_nav2_control/local_setup.zsh
+[6.221s] -- Installing: /home/prajesh/slam_ws/install/cpp_nav2_control/share/cpp_nav2_control/local_setup.dsv
+[6.221s] -- Installing: /home/prajesh/slam_ws/install/cpp_nav2_control/share/cpp_nav2_control/package.dsv
+[6.221s] -- Up-to-date: /home/prajesh/slam_ws/install/cpp_nav2_control/share/ament_index/resource_index/packages/cpp_nav2_control
+[6.221s] -- Up-to-date: /home/prajesh/slam_ws/install/cpp_nav2_control/share/cpp_nav2_control/cmake/cpp_nav2_controlConfig.cmake
+[6.221s] -- Up-to-date: /home/prajesh/slam_ws/install/cpp_nav2_control/share/cpp_nav2_control/cmake/cpp_nav2_controlConfig-version.cmake
+[6.221s] -- Installing: /home/prajesh/slam_ws/install/cpp_nav2_control/share/cpp_nav2_control/package.xml
+[6.225s] Invoked command in '/home/prajesh/slam_ws/build/cpp_nav2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/py_server_test:/home/prajesh/my_ws/install/py_final_project:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/prajesh/slam_ws/build/cpp_nav2_control

@@ -1,0 +1,5 @@
+[01m[K/home/prajesh/slam_ws/src/cpp_nav2_control/src/random_wp_gen.cpp:[m[K In member function ‘[01m[Kvoid GoalGenerator::turtle_pose_sub_callback(geometry_msgs::msg::PoseWithCovarianceStamped)[m[K’:
+[01m[K/home/prajesh/slam_ws/src/cpp_nav2_control/src/random_wp_gen.cpp:53:85:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   53 | le_pose_sub_callback([01;35m[Kgeometry_msgs::msg::PoseWithCovarianceStamped msg[m[K)
+      |                      [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+

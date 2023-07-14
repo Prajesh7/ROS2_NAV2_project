@@ -1,0 +1,27 @@
+[35m[1mConsolidate compiler generated dependencies of target random_goal_generator[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/random_goal_generator.dir/src/random_wp_gen.cpp.o[0m
+[01m[K/home/prajesh/slam_ws/src/cpp_nav2_control/src/random_wp_gen.cpp:[m[K In member function ‘[01m[Kvoid GoalGenerator::turtle_pose_sub_callback(geometry_msgs::msg::PoseWithCovarianceStamped)[m[K’:
+[01m[K/home/prajesh/slam_ws/src/cpp_nav2_control/src/random_wp_gen.cpp:53:85:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   53 | le_pose_sub_callback([01;35m[Kgeometry_msgs::msg::PoseWithCovarianceStamped msg[m[K)
+      |                      [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+
+[100%] [32m[1mLinking CXX executable random_goal_generator[0m
+[100%] Built target random_goal_generator
+-- Install configuration: ""
+-- Installing: /home/prajesh/slam_ws/install/cpp_nav2_control/lib/cpp_nav2_control/random_goal_generator
+-- Set runtime path of "/home/prajesh/slam_ws/install/cpp_nav2_control/lib/cpp_nav2_control/random_goal_generator" to ""
+-- Up-to-date: /home/prajesh/slam_ws/install/cpp_nav2_control/share/ament_index/resource_index/package_run_dependencies/cpp_nav2_control
+-- Up-to-date: /home/prajesh/slam_ws/install/cpp_nav2_control/share/ament_index/resource_index/parent_prefix_path/cpp_nav2_control
+-- Up-to-date: /home/prajesh/slam_ws/install/cpp_nav2_control/share/cpp_nav2_control/environment/ament_prefix_path.sh
+-- Up-to-date: /home/prajesh/slam_ws/install/cpp_nav2_control/share/cpp_nav2_control/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/prajesh/slam_ws/install/cpp_nav2_control/share/cpp_nav2_control/environment/path.sh
+-- Up-to-date: /home/prajesh/slam_ws/install/cpp_nav2_control/share/cpp_nav2_control/environment/path.dsv
+-- Up-to-date: /home/prajesh/slam_ws/install/cpp_nav2_control/share/cpp_nav2_control/local_setup.bash
+-- Up-to-date: /home/prajesh/slam_ws/install/cpp_nav2_control/share/cpp_nav2_control/local_setup.sh
+-- Up-to-date: /home/prajesh/slam_ws/install/cpp_nav2_control/share/cpp_nav2_control/local_setup.zsh
+-- Up-to-date: /home/prajesh/slam_ws/install/cpp_nav2_control/share/cpp_nav2_control/local_setup.dsv
+-- Installing: /home/prajesh/slam_ws/install/cpp_nav2_control/share/cpp_nav2_control/package.dsv
+-- Up-to-date: /home/prajesh/slam_ws/install/cpp_nav2_control/share/ament_index/resource_index/packages/cpp_nav2_control
+-- Up-to-date: /home/prajesh/slam_ws/install/cpp_nav2_control/share/cpp_nav2_control/cmake/cpp_nav2_controlConfig.cmake
+-- Up-to-date: /home/prajesh/slam_ws/install/cpp_nav2_control/share/cpp_nav2_control/cmake/cpp_nav2_controlConfig-version.cmake
+-- Up-to-date: /home/prajesh/slam_ws/install/cpp_nav2_control/share/cpp_nav2_control/package.xml

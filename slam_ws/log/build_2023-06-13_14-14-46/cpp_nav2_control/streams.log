@@ -1,0 +1,35 @@
+[0.015s] Invoking command in '/home/prajesh/slam_ws/build/cpp_nav2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/py_server_test:/home/prajesh/my_ws/install/py_final_project:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/prajesh/slam_ws/build/cpp_nav2_control -- -j4 -l4
+[0.040s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.167s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[0.195s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.197s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.202s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.214s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.228s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.285s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.286s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.313s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.457s] -- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+[0.472s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.514s] -- Found nav2_msgs: 1.1.6 (/opt/ros/humble/share/nav2_msgs/cmake)
+[0.823s] -- Found nav2_util: 1.1.6 (/opt/ros/humble/share/nav2_util/cmake)
+[1.096s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.097s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.277s] -- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)
+[1.656s] -- Configuring done
+[1.659s] [31mCMake Error at CMakeLists.txt:18 (add_executable):
+[1.659s]   Cannot find source file:
+[1.659s] 
+[1.660s]     src/ramdom_wp_gen.cpp
+[1.660s] 
+[1.660s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[1.661s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[1.661s] 
+[1.661s] [0m
+[1.662s] [31mCMake Error at CMakeLists.txt:18 (add_executable):
+[1.662s]   No SOURCES given to target: random_goal_generator
+[1.662s] 
+[1.663s] [0m
+[1.663s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[1.667s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[1.669s] Invoked command in '/home/prajesh/slam_ws/build/cpp_nav2_control' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/py_server_test:/home/prajesh/my_ws/install/py_final_project:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/prajesh/slam_ws/build/cpp_nav2_control -- -j4 -l4

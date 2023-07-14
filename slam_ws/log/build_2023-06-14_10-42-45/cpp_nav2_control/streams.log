@@ -1,0 +1,15 @@
+[0.015s] Invoking command in '/home/prajesh/slam_ws/build/cpp_nav2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/py_server_test:/home/prajesh/my_ws/install/py_final_project:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/prajesh/slam_ws/build/cpp_nav2_control -- -j8 -l8
+[0.051s] [35m[1mConsolidate compiler generated dependencies of target random_goal_generator[0m
+[0.070s] [ 50%] [32mBuilding CXX object CMakeFiles/random_goal_generator.dir/src/random_wp_gen.cpp.o[0m
+[4.470s] [01m[K/home/prajesh/slam_ws/src/cpp_nav2_control/src/random_wp_gen.cpp:[m[K In member function ‘[01m[Kvoid GoalGenerator::turtle_pose_sub_callback(geometry_msgs::msg::PoseWithCovarianceStamped)[m[K’:
+[4.470s] [01m[K/home/prajesh/slam_ws/src/cpp_nav2_control/src/random_wp_gen.cpp:72:58:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kstd::string dist_delta[m[K’
+[4.470s]    72 |             std::string message = "Distance Delta-> %f", [01;31m[Kdist_delta[m[K;
+[4.470s]       |                                                          [01;31m[K^~~~~~~~~~[m[K
+[4.470s] [01m[K/home/prajesh/slam_ws/src/cpp_nav2_control/src/random_wp_gen.cpp:70:20:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Kdouble dist_delta[m[K’
+[4.470s]    70 |             double [01;36m[Kdist_delta[m[K = (target_dist_ - curr_dist);
+[4.470s]       |                    [01;36m[K^~~~~~~~~~[m[K
+[4.472s] [01m[K/home/prajesh/slam_ws/src/cpp_nav2_control/src/random_wp_gen.cpp:70:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdist_delta[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[8.538s] gmake[2]: *** [CMakeFiles/random_goal_generator.dir/build.make:76: CMakeFiles/random_goal_generator.dir/src/random_wp_gen.cpp.o] Error 1
+[8.538s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/random_goal_generator.dir/all] Error 2
+[8.538s] gmake: *** [Makefile:146: all] Error 2
+[8.540s] Invoked command in '/home/prajesh/slam_ws/build/cpp_nav2_control' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/py_server_test:/home/prajesh/my_ws/install/py_final_project:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/prajesh/slam_ws/build/cpp_nav2_control -- -j8 -l8

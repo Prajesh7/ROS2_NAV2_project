@@ -1,0 +1,205 @@
+[0.313s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.313s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f618f6a8100>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f618f66fbe0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f618f66fbe0>>)
+[0.335s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.336s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.336s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.336s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.336s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.336s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.336s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/prajesh/slam_ws'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_nav2_control) by extensions ['ignore', 'ignore_ament_install']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_nav2_control) by extension 'ignore'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_nav2_control) by extension 'ignore_ament_install'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_nav2_control) by extensions ['colcon_pkg']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_nav2_control) by extension 'colcon_pkg'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_nav2_control) by extensions ['colcon_meta']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_nav2_control) by extension 'colcon_meta'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_nav2_control) by extensions ['ros']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_nav2_control) by extension 'ros'
+[0.352s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp_nav2_control' with type 'ros.ament_cmake' and name 'cpp_nav2_control'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_slam_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_slam_bringup) by extension 'ignore'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_slam_bringup) by extension 'ignore_ament_install'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_slam_bringup) by extensions ['colcon_pkg']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_slam_bringup) by extension 'colcon_pkg'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_slam_bringup) by extensions ['colcon_meta']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_slam_bringup) by extension 'colcon_meta'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_slam_bringup) by extensions ['ros']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_slam_bringup) by extension 'ros'
+[0.353s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_slam_bringup' with type 'ros.ament_cmake' and name 'my_slam_bringup'
+[0.353s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.353s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.353s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.353s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.353s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.373s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.374s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.377s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/prajesh/slam_ws/install
+[0.378s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 12 installed packages in /home/prajesh/my_ws/install
+[0.379s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/prajesh/tbot_ws/install
+[0.380s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 383 installed packages in /opt/ros/humble
+[0.382s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.447s] Level 5:colcon.colcon_core.verb:set package 'cpp_nav2_control' build argument 'cmake_args' from command line to 'None'
+[0.447s] Level 5:colcon.colcon_core.verb:set package 'cpp_nav2_control' build argument 'cmake_target' from command line to 'None'
+[0.447s] Level 5:colcon.colcon_core.verb:set package 'cpp_nav2_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.447s] Level 5:colcon.colcon_core.verb:set package 'cpp_nav2_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.447s] Level 5:colcon.colcon_core.verb:set package 'cpp_nav2_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.447s] Level 5:colcon.colcon_core.verb:set package 'cpp_nav2_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.447s] Level 5:colcon.colcon_core.verb:set package 'cpp_nav2_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.447s] Level 5:colcon.colcon_core.verb:set package 'cpp_nav2_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.447s] Level 5:colcon.colcon_core.verb:set package 'cpp_nav2_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.447s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_nav2_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/prajesh/slam_ws/build/cpp_nav2_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/prajesh/slam_ws/install/cpp_nav2_control', 'merge_install': False, 'path': '/home/prajesh/slam_ws/src/cpp_nav2_control', 'symlink_install': False, 'test_result_base': None}
+[0.448s] Level 5:colcon.colcon_core.verb:set package 'my_slam_bringup' build argument 'cmake_args' from command line to 'None'
+[0.448s] Level 5:colcon.colcon_core.verb:set package 'my_slam_bringup' build argument 'cmake_target' from command line to 'None'
+[0.448s] Level 5:colcon.colcon_core.verb:set package 'my_slam_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.448s] Level 5:colcon.colcon_core.verb:set package 'my_slam_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.448s] Level 5:colcon.colcon_core.verb:set package 'my_slam_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.448s] Level 5:colcon.colcon_core.verb:set package 'my_slam_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.448s] Level 5:colcon.colcon_core.verb:set package 'my_slam_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.448s] Level 5:colcon.colcon_core.verb:set package 'my_slam_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.448s] Level 5:colcon.colcon_core.verb:set package 'my_slam_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.448s] DEBUG:colcon.colcon_core.verb:Building package 'my_slam_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/prajesh/slam_ws/build/my_slam_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/prajesh/slam_ws/install/my_slam_bringup', 'merge_install': False, 'path': '/home/prajesh/slam_ws/src/my_slam_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.449s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.453s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.453s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/prajesh/slam_ws/src/cpp_nav2_control' with build type 'ament_cmake'
+[0.453s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/prajesh/slam_ws/src/cpp_nav2_control'
+[0.460s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.461s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.461s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.474s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/prajesh/slam_ws/build/cpp_nav2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/py_server_test:/home/prajesh/my_ws/install/py_final_project:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/prajesh/slam_ws/build/cpp_nav2_control -- -j4 -l4
+[0.539s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/prajesh/slam_ws/build/cpp_nav2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/py_server_test:/home/prajesh/my_ws/install/py_final_project:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/prajesh/slam_ws/build/cpp_nav2_control -- -j4 -l4
+[0.576s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/prajesh/slam_ws/build/cpp_nav2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/py_server_test:/home/prajesh/my_ws/install/py_final_project:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/prajesh/slam_ws/build/cpp_nav2_control
+[0.593s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_nav2_control)
+[0.594s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/prajesh/slam_ws/build/cpp_nav2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/py_server_test:/home/prajesh/my_ws/install/py_final_project:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/prajesh/slam_ws/build/cpp_nav2_control
+[0.599s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/slam_ws/install/cpp_nav2_control' for CMake module files
+[0.600s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/slam_ws/install/cpp_nav2_control' for CMake config files
+[0.600s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_nav2_control', 'cmake_prefix_path')
+[0.601s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/prajesh/slam_ws/install/cpp_nav2_control/share/cpp_nav2_control/hook/cmake_prefix_path.ps1'
+[0.602s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/prajesh/slam_ws/install/cpp_nav2_control/share/cpp_nav2_control/hook/cmake_prefix_path.dsv'
+[0.602s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/prajesh/slam_ws/install/cpp_nav2_control/share/cpp_nav2_control/hook/cmake_prefix_path.sh'
+[0.603s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/slam_ws/install/cpp_nav2_control/lib'
+[0.603s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/slam_ws/install/cpp_nav2_control/bin'
+[0.604s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/slam_ws/install/cpp_nav2_control/lib/pkgconfig/cpp_nav2_control.pc'
+[0.604s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/slam_ws/install/cpp_nav2_control/lib/python3.10/site-packages'
+[0.604s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/slam_ws/install/cpp_nav2_control/bin'
+[0.605s] INFO:colcon.colcon_core.shell:Creating package script '/home/prajesh/slam_ws/install/cpp_nav2_control/share/cpp_nav2_control/package.ps1'
+[0.606s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/prajesh/slam_ws/install/cpp_nav2_control/share/cpp_nav2_control/package.dsv'
+[0.606s] INFO:colcon.colcon_core.shell:Creating package script '/home/prajesh/slam_ws/install/cpp_nav2_control/share/cpp_nav2_control/package.sh'
+[0.607s] INFO:colcon.colcon_core.shell:Creating package script '/home/prajesh/slam_ws/install/cpp_nav2_control/share/cpp_nav2_control/package.bash'
+[0.608s] INFO:colcon.colcon_core.shell:Creating package script '/home/prajesh/slam_ws/install/cpp_nav2_control/share/cpp_nav2_control/package.zsh'
+[0.609s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/prajesh/slam_ws/install/cpp_nav2_control/share/colcon-core/packages/cpp_nav2_control)
+[0.630s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_nav2_control)
+[0.631s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/slam_ws/install/cpp_nav2_control' for CMake module files
+[0.632s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/slam_ws/install/cpp_nav2_control' for CMake config files
+[0.632s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_nav2_control', 'cmake_prefix_path')
+[0.633s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/prajesh/slam_ws/install/cpp_nav2_control/share/cpp_nav2_control/hook/cmake_prefix_path.ps1'
+[0.634s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/prajesh/slam_ws/install/cpp_nav2_control/share/cpp_nav2_control/hook/cmake_prefix_path.dsv'
+[0.634s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/prajesh/slam_ws/install/cpp_nav2_control/share/cpp_nav2_control/hook/cmake_prefix_path.sh'
+[0.635s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/slam_ws/install/cpp_nav2_control/lib'
+[0.635s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/slam_ws/install/cpp_nav2_control/bin'
+[0.635s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/slam_ws/install/cpp_nav2_control/lib/pkgconfig/cpp_nav2_control.pc'
+[0.635s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/slam_ws/install/cpp_nav2_control/lib/python3.10/site-packages'
+[0.635s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/slam_ws/install/cpp_nav2_control/bin'
+[0.636s] INFO:colcon.colcon_core.shell:Creating package script '/home/prajesh/slam_ws/install/cpp_nav2_control/share/cpp_nav2_control/package.ps1'
+[0.637s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/prajesh/slam_ws/install/cpp_nav2_control/share/cpp_nav2_control/package.dsv'
+[0.637s] INFO:colcon.colcon_core.shell:Creating package script '/home/prajesh/slam_ws/install/cpp_nav2_control/share/cpp_nav2_control/package.sh'
+[0.638s] INFO:colcon.colcon_core.shell:Creating package script '/home/prajesh/slam_ws/install/cpp_nav2_control/share/cpp_nav2_control/package.bash'
+[0.638s] INFO:colcon.colcon_core.shell:Creating package script '/home/prajesh/slam_ws/install/cpp_nav2_control/share/cpp_nav2_control/package.zsh'
+[0.639s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/prajesh/slam_ws/install/cpp_nav2_control/share/colcon-core/packages/cpp_nav2_control)
+[0.639s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/prajesh/slam_ws/src/my_slam_bringup' with build type 'ament_cmake'
+[0.639s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/prajesh/slam_ws/src/my_slam_bringup'
+[0.641s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.641s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.656s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/prajesh/slam_ws/build/my_slam_bringup': CMAKE_PREFIX_PATH=/home/prajesh/slam_ws/install/cpp_nav2_control:/home/prajesh/slam_ws/install/my_slam_bringup:/home/prajesh/my_ws/install/my_robot_bringup:/home/prajesh/my_ws/install/my_robot_interfaces:/home/prajesh/my_ws/install/my_cpp_pkg:/home/prajesh/my_ws/install/led_system:/home/prajesh/my_ws/install/cpp_test_pkg:/home/prajesh/my_ws/install/cpp_service_test:/home/prajesh/my_ws/install/cpp_practice:/home/prajesh/my_ws/install/cpp_final_project:/home/prajesh/my_ws/install/battery_interfaces:/home/prajesh/tbot_ws/install/turtlebot3_simulations:/home/prajesh/tbot_ws/install/turtlebot3_gazebo:/home/prajesh/tbot_ws/install/turtlebot3_fake_node:/home/prajesh/my_ws/install/py_server_test:/home/prajesh/my_ws/install/py_final_project:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/prajesh/slam_ws/build/my_slam_bringup -- -j4 -l4
+[0.691s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/prajesh/slam_ws/build/my_slam_bringup' returned '0': CMAKE_PREFIX_PATH=/home/prajesh/slam_ws/install/cpp_nav2_control:/home/prajesh/slam_ws/install/my_slam_bringup:/home/prajesh/my_ws/install/my_robot_bringup:/home/prajesh/my_ws/install/my_robot_interfaces:/home/prajesh/my_ws/install/my_cpp_pkg:/home/prajesh/my_ws/install/led_system:/home/prajesh/my_ws/install/cpp_test_pkg:/home/prajesh/my_ws/install/cpp_service_test:/home/prajesh/my_ws/install/cpp_practice:/home/prajesh/my_ws/install/cpp_final_project:/home/prajesh/my_ws/install/battery_interfaces:/home/prajesh/tbot_ws/install/turtlebot3_simulations:/home/prajesh/tbot_ws/install/turtlebot3_gazebo:/home/prajesh/tbot_ws/install/turtlebot3_fake_node:/home/prajesh/my_ws/install/py_server_test:/home/prajesh/my_ws/install/py_final_project:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/prajesh/slam_ws/build/my_slam_bringup -- -j4 -l4
+[0.711s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/prajesh/slam_ws/build/my_slam_bringup': CMAKE_PREFIX_PATH=/home/prajesh/slam_ws/install/cpp_nav2_control:/home/prajesh/slam_ws/install/my_slam_bringup:/home/prajesh/my_ws/install/my_robot_bringup:/home/prajesh/my_ws/install/my_robot_interfaces:/home/prajesh/my_ws/install/my_cpp_pkg:/home/prajesh/my_ws/install/led_system:/home/prajesh/my_ws/install/cpp_test_pkg:/home/prajesh/my_ws/install/cpp_service_test:/home/prajesh/my_ws/install/cpp_practice:/home/prajesh/my_ws/install/cpp_final_project:/home/prajesh/my_ws/install/battery_interfaces:/home/prajesh/tbot_ws/install/turtlebot3_simulations:/home/prajesh/tbot_ws/install/turtlebot3_gazebo:/home/prajesh/tbot_ws/install/turtlebot3_fake_node:/home/prajesh/my_ws/install/py_server_test:/home/prajesh/my_ws/install/py_final_project:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/prajesh/slam_ws/build/my_slam_bringup
+[0.719s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_slam_bringup)
+[0.721s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/slam_ws/install/my_slam_bringup' for CMake module files
+[0.721s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/slam_ws/install/my_slam_bringup' for CMake config files
+[0.721s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/prajesh/slam_ws/build/my_slam_bringup' returned '0': CMAKE_PREFIX_PATH=/home/prajesh/slam_ws/install/cpp_nav2_control:/home/prajesh/slam_ws/install/my_slam_bringup:/home/prajesh/my_ws/install/my_robot_bringup:/home/prajesh/my_ws/install/my_robot_interfaces:/home/prajesh/my_ws/install/my_cpp_pkg:/home/prajesh/my_ws/install/led_system:/home/prajesh/my_ws/install/cpp_test_pkg:/home/prajesh/my_ws/install/cpp_service_test:/home/prajesh/my_ws/install/cpp_practice:/home/prajesh/my_ws/install/cpp_final_project:/home/prajesh/my_ws/install/battery_interfaces:/home/prajesh/tbot_ws/install/turtlebot3_simulations:/home/prajesh/tbot_ws/install/turtlebot3_gazebo:/home/prajesh/tbot_ws/install/turtlebot3_fake_node:/home/prajesh/my_ws/install/py_server_test:/home/prajesh/my_ws/install/py_final_project:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/prajesh/slam_ws/build/my_slam_bringup
+[0.722s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_slam_bringup', 'cmake_prefix_path')
+[0.723s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/prajesh/slam_ws/install/my_slam_bringup/share/my_slam_bringup/hook/cmake_prefix_path.ps1'
+[0.723s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/prajesh/slam_ws/install/my_slam_bringup/share/my_slam_bringup/hook/cmake_prefix_path.dsv'
+[0.724s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/prajesh/slam_ws/install/my_slam_bringup/share/my_slam_bringup/hook/cmake_prefix_path.sh'
+[0.724s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/slam_ws/install/my_slam_bringup/bin'
+[0.724s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/slam_ws/install/my_slam_bringup/lib/pkgconfig/my_slam_bringup.pc'
+[0.725s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/slam_ws/install/my_slam_bringup/lib/python3.10/site-packages'
+[0.725s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/slam_ws/install/my_slam_bringup/bin'
+[0.726s] INFO:colcon.colcon_core.shell:Creating package script '/home/prajesh/slam_ws/install/my_slam_bringup/share/my_slam_bringup/package.ps1'
+[0.726s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/prajesh/slam_ws/install/my_slam_bringup/share/my_slam_bringup/package.dsv'
+[0.727s] INFO:colcon.colcon_core.shell:Creating package script '/home/prajesh/slam_ws/install/my_slam_bringup/share/my_slam_bringup/package.sh'
+[0.727s] INFO:colcon.colcon_core.shell:Creating package script '/home/prajesh/slam_ws/install/my_slam_bringup/share/my_slam_bringup/package.bash'
+[0.728s] INFO:colcon.colcon_core.shell:Creating package script '/home/prajesh/slam_ws/install/my_slam_bringup/share/my_slam_bringup/package.zsh'
+[0.728s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/prajesh/slam_ws/install/my_slam_bringup/share/colcon-core/packages/my_slam_bringup)
+[0.747s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_slam_bringup)
+[0.748s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/slam_ws/install/my_slam_bringup' for CMake module files
+[0.749s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/slam_ws/install/my_slam_bringup' for CMake config files
+[0.749s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_slam_bringup', 'cmake_prefix_path')
+[0.750s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/prajesh/slam_ws/install/my_slam_bringup/share/my_slam_bringup/hook/cmake_prefix_path.ps1'
+[0.750s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/prajesh/slam_ws/install/my_slam_bringup/share/my_slam_bringup/hook/cmake_prefix_path.dsv'
+[0.751s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/prajesh/slam_ws/install/my_slam_bringup/share/my_slam_bringup/hook/cmake_prefix_path.sh'
+[0.751s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/slam_ws/install/my_slam_bringup/bin'
+[0.752s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/slam_ws/install/my_slam_bringup/lib/pkgconfig/my_slam_bringup.pc'
+[0.752s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/slam_ws/install/my_slam_bringup/lib/python3.10/site-packages'
+[0.752s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/slam_ws/install/my_slam_bringup/bin'
+[0.753s] INFO:colcon.colcon_core.shell:Creating package script '/home/prajesh/slam_ws/install/my_slam_bringup/share/my_slam_bringup/package.ps1'
+[0.753s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/prajesh/slam_ws/install/my_slam_bringup/share/my_slam_bringup/package.dsv'
+[0.754s] INFO:colcon.colcon_core.shell:Creating package script '/home/prajesh/slam_ws/install/my_slam_bringup/share/my_slam_bringup/package.sh'
+[0.755s] INFO:colcon.colcon_core.shell:Creating package script '/home/prajesh/slam_ws/install/my_slam_bringup/share/my_slam_bringup/package.bash'
+[0.755s] INFO:colcon.colcon_core.shell:Creating package script '/home/prajesh/slam_ws/install/my_slam_bringup/share/my_slam_bringup/package.zsh'
+[0.755s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/prajesh/slam_ws/install/my_slam_bringup/share/colcon-core/packages/my_slam_bringup)
+[0.756s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.756s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.756s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.757s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.762s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.762s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.762s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.775s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.777s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/prajesh/slam_ws/install/local_setup.ps1'
+[0.778s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/prajesh/slam_ws/install/_local_setup_util_ps1.py'
+[0.780s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/prajesh/slam_ws/install/setup.ps1'
+[0.782s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/prajesh/slam_ws/install/local_setup.sh'
+[0.783s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/prajesh/slam_ws/install/_local_setup_util_sh.py'
+[0.785s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/prajesh/slam_ws/install/setup.sh'
+[0.788s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/prajesh/slam_ws/install/local_setup.bash'
+[0.788s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/prajesh/slam_ws/install/setup.bash'
+[0.790s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/prajesh/slam_ws/install/local_setup.zsh'
+[0.791s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/prajesh/slam_ws/install/setup.zsh'

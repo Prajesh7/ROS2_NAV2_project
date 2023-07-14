@@ -1,0 +1,149 @@
+[0.000000] (-) TimerEvent: {}
+[0.000210] (cpp_nav2_control) JobQueued: {'identifier': 'cpp_nav2_control', 'dependencies': OrderedDict()}
+[0.000413] (cpp_nav2_control) JobStarted: {'identifier': 'cpp_nav2_control'}
+[0.011603] (cpp_nav2_control) JobProgress: {'identifier': 'cpp_nav2_control', 'progress': 'cmake'}
+[0.012659] (cpp_nav2_control) JobProgress: {'identifier': 'cpp_nav2_control', 'progress': 'build'}
+[0.012815] (cpp_nav2_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/prajesh/slam_ws/build/cpp_nav2_control', '--', '-j4', '-l4'], 'cwd': '/home/prajesh/slam_ws/build/cpp_nav2_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'prajesh'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/prajesh/my_ws/install/my_robot_interfaces/lib:/home/prajesh/my_ws/install/battery_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/prajesh'), ('OLDPWD', '/home/prajesh'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1932'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/prajesh/slam_ws/install:/home/prajesh/my_ws/install:/home/prajesh/tbot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'prajesh'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'prajesh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/slam:@/tmp/.ICE-unix/1902,unix/slam:/tmp/.ICE-unix/1902'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0d6bea16_3f91_452d_a348_83cf76297139'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ZSPI61'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.108'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/prajesh/slam_ws/install/cpp_nav2_control:/home/prajesh/my_ws/install/py_server_test:/home/prajesh/my_ws/install/my_robot_bringup:/home/prajesh/my_ws/install/py_final_project:/home/prajesh/my_ws/install/my_py_pkg:/home/prajesh/my_ws/install/my_robot_interfaces:/home/prajesh/my_ws/install/my_cpp_pkg:/home/prajesh/my_ws/install/led_system:/home/prajesh/my_ws/install/cpp_test_pkg:/home/prajesh/my_ws/install/cpp_service_test:/home/prajesh/my_ws/install/cpp_practice:/home/prajesh/my_ws/install/cpp_final_project:/home/prajesh/my_ws/install/battery_interfaces:/home/prajesh/tbot_ws/install/turtlebot3_simulations:/home/prajesh/tbot_ws/install/turtlebot3_gazebo:/home/prajesh/tbot_ws/install/turtlebot3_fake_node:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/prajesh/slam_ws/build/cpp_nav2_control'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/prajesh/my_ws/install/py_server_test/lib/python3.10/site-packages:/home/prajesh/my_ws/install/py_final_project/lib/python3.10/site-packages:/home/prajesh/my_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/prajesh/my_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/prajesh/my_ws/install/battery_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/prajesh/slam_ws/install/cpp_nav2_control:/home/prajesh/my_ws/install/my_robot_bringup:/home/prajesh/my_ws/install/my_robot_interfaces:/home/prajesh/my_ws/install/my_cpp_pkg:/home/prajesh/my_ws/install/led_system:/home/prajesh/my_ws/install/cpp_test_pkg:/home/prajesh/my_ws/install/cpp_service_test:/home/prajesh/my_ws/install/cpp_practice:/home/prajesh/my_ws/install/cpp_final_project:/home/prajesh/my_ws/install/battery_interfaces:/home/prajesh/tbot_ws/install/turtlebot3_simulations:/home/prajesh/tbot_ws/install/turtlebot3_gazebo:/home/prajesh/tbot_ws/install/turtlebot3_fake_node:/home/prajesh/my_ws/install/py_server_test:/home/prajesh/my_ws/install/py_final_project:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[0.053556] (cpp_nav2_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target random_goal_generator\x1b[0m\n'}
+[0.070210] (cpp_nav2_control) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/random_goal_generator.dir/src/random_wp_gen.cpp.o\x1b[0m\n'}
+[0.098871] (-) TimerEvent: {}
+[0.199591] (-) TimerEvent: {}
+[0.299923] (-) TimerEvent: {}
+[0.400299] (-) TimerEvent: {}
+[0.500785] (-) TimerEvent: {}
+[0.601251] (-) TimerEvent: {}
+[0.701783] (-) TimerEvent: {}
+[0.802913] (-) TimerEvent: {}
+[0.903940] (-) TimerEvent: {}
+[1.004439] (-) TimerEvent: {}
+[1.105525] (-) TimerEvent: {}
+[1.206211] (-) TimerEvent: {}
+[1.307478] (-) TimerEvent: {}
+[1.407941] (-) TimerEvent: {}
+[1.508775] (-) TimerEvent: {}
+[1.609200] (-) TimerEvent: {}
+[1.709769] (-) TimerEvent: {}
+[1.810590] (-) TimerEvent: {}
+[1.911035] (-) TimerEvent: {}
+[2.011807] (-) TimerEvent: {}
+[2.112208] (-) TimerEvent: {}
+[2.213145] (-) TimerEvent: {}
+[2.313935] (-) TimerEvent: {}
+[2.415079] (-) TimerEvent: {}
+[2.515774] (-) TimerEvent: {}
+[2.616582] (-) TimerEvent: {}
+[2.717539] (-) TimerEvent: {}
+[2.818417] (-) TimerEvent: {}
+[2.919087] (-) TimerEvent: {}
+[3.019935] (-) TimerEvent: {}
+[3.120196] (-) TimerEvent: {}
+[3.221101] (-) TimerEvent: {}
+[3.321748] (-) TimerEvent: {}
+[3.422094] (-) TimerEvent: {}
+[3.522615] (-) TimerEvent: {}
+[3.623444] (-) TimerEvent: {}
+[3.724090] (-) TimerEvent: {}
+[3.824685] (-) TimerEvent: {}
+[3.925523] (-) TimerEvent: {}
+[4.026144] (-) TimerEvent: {}
+[4.126438] (-) TimerEvent: {}
+[4.227155] (-) TimerEvent: {}
+[4.328145] (-) TimerEvent: {}
+[4.428582] (-) TimerEvent: {}
+[4.529290] (-) TimerEvent: {}
+[4.630055] (-) TimerEvent: {}
+[4.731297] (-) TimerEvent: {}
+[4.832074] (-) TimerEvent: {}
+[4.932518] (-) TimerEvent: {}
+[5.033203] (-) TimerEvent: {}
+[5.133802] (-) TimerEvent: {}
+[5.234744] (-) TimerEvent: {}
+[5.335697] (-) TimerEvent: {}
+[5.436324] (-) TimerEvent: {}
+[5.537190] (-) TimerEvent: {}
+[5.638125] (-) TimerEvent: {}
+[5.738570] (-) TimerEvent: {}
+[5.839346] (-) TimerEvent: {}
+[5.940143] (-) TimerEvent: {}
+[6.040530] (-) TimerEvent: {}
+[6.141579] (-) TimerEvent: {}
+[6.242259] (-) TimerEvent: {}
+[6.342743] (-) TimerEvent: {}
+[6.443747] (-) TimerEvent: {}
+[6.544642] (-) TimerEvent: {}
+[6.645454] (-) TimerEvent: {}
+[6.746072] (-) TimerEvent: {}
+[6.846325] (-) TimerEvent: {}
+[6.946781] (-) TimerEvent: {}
+[7.047642] (-) TimerEvent: {}
+[7.148045] (-) TimerEvent: {}
+[7.248784] (-) TimerEvent: {}
+[7.349830] (-) TimerEvent: {}
+[7.450882] (-) TimerEvent: {}
+[7.551296] (-) TimerEvent: {}
+[7.655569] (-) TimerEvent: {}
+[7.755849] (-) TimerEvent: {}
+[7.856758] (-) TimerEvent: {}
+[7.957132] (-) TimerEvent: {}
+[8.057616] (-) TimerEvent: {}
+[8.158198] (-) TimerEvent: {}
+[8.258655] (-) TimerEvent: {}
+[8.359024] (-) TimerEvent: {}
+[8.459683] (-) TimerEvent: {}
+[8.560484] (-) TimerEvent: {}
+[8.661090] (-) TimerEvent: {}
+[8.762748] (-) TimerEvent: {}
+[8.863133] (-) TimerEvent: {}
+[8.963379] (-) TimerEvent: {}
+[9.063811] (-) TimerEvent: {}
+[9.164359] (-) TimerEvent: {}
+[9.265004] (-) TimerEvent: {}
+[9.365780] (-) TimerEvent: {}
+[9.466337] (-) TimerEvent: {}
+[9.566980] (-) TimerEvent: {}
+[9.667325] (-) TimerEvent: {}
+[9.768037] (-) TimerEvent: {}
+[9.868407] (-) TimerEvent: {}
+[9.968642] (-) TimerEvent: {}
+[10.069398] (-) TimerEvent: {}
+[10.169861] (-) TimerEvent: {}
+[10.270267] (-) TimerEvent: {}
+[10.371046] (-) TimerEvent: {}
+[10.471949] (-) TimerEvent: {}
+[10.572639] (-) TimerEvent: {}
+[10.673229] (-) TimerEvent: {}
+[10.773804] (-) TimerEvent: {}
+[10.874600] (-) TimerEvent: {}
+[10.939010] (cpp_nav2_control) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable random_goal_generator\x1b[0m\n'}
+[10.974865] (-) TimerEvent: {}
+[11.075304] (-) TimerEvent: {}
+[11.176095] (-) TimerEvent: {}
+[11.276577] (-) TimerEvent: {}
+[11.377098] (-) TimerEvent: {}
+[11.472098] (cpp_nav2_control) StdoutLine: {'line': b'[100%] Built target random_goal_generator\n'}
+[11.477571] (-) TimerEvent: {}
+[11.481883] (cpp_nav2_control) CommandEnded: {'returncode': 0}
+[11.504303] (cpp_nav2_control) JobProgress: {'identifier': 'cpp_nav2_control', 'progress': 'install'}
+[11.512260] (cpp_nav2_control) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/prajesh/slam_ws/build/cpp_nav2_control'], 'cwd': '/home/prajesh/slam_ws/build/cpp_nav2_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'prajesh'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/prajesh/my_ws/install/my_robot_interfaces/lib:/home/prajesh/my_ws/install/battery_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/prajesh'), ('OLDPWD', '/home/prajesh'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1932'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/prajesh/slam_ws/install:/home/prajesh/my_ws/install:/home/prajesh/tbot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'prajesh'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'prajesh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/slam:@/tmp/.ICE-unix/1902,unix/slam:/tmp/.ICE-unix/1902'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0d6bea16_3f91_452d_a348_83cf76297139'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ZSPI61'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.108'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/prajesh/slam_ws/install/cpp_nav2_control:/home/prajesh/my_ws/install/py_server_test:/home/prajesh/my_ws/install/my_robot_bringup:/home/prajesh/my_ws/install/py_final_project:/home/prajesh/my_ws/install/my_py_pkg:/home/prajesh/my_ws/install/my_robot_interfaces:/home/prajesh/my_ws/install/my_cpp_pkg:/home/prajesh/my_ws/install/led_system:/home/prajesh/my_ws/install/cpp_test_pkg:/home/prajesh/my_ws/install/cpp_service_test:/home/prajesh/my_ws/install/cpp_practice:/home/prajesh/my_ws/install/cpp_final_project:/home/prajesh/my_ws/install/battery_interfaces:/home/prajesh/tbot_ws/install/turtlebot3_simulations:/home/prajesh/tbot_ws/install/turtlebot3_gazebo:/home/prajesh/tbot_ws/install/turtlebot3_fake_node:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/prajesh/slam_ws/build/cpp_nav2_control'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/prajesh/my_ws/install/py_server_test/lib/python3.10/site-packages:/home/prajesh/my_ws/install/py_final_project/lib/python3.10/site-packages:/home/prajesh/my_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/prajesh/my_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/prajesh/my_ws/install/battery_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/prajesh/slam_ws/install/cpp_nav2_control:/home/prajesh/my_ws/install/my_robot_bringup:/home/prajesh/my_ws/install/my_robot_interfaces:/home/prajesh/my_ws/install/my_cpp_pkg:/home/prajesh/my_ws/install/led_system:/home/prajesh/my_ws/install/cpp_test_pkg:/home/prajesh/my_ws/install/cpp_service_test:/home/prajesh/my_ws/install/cpp_practice:/home/prajesh/my_ws/install/cpp_final_project:/home/prajesh/my_ws/install/battery_interfaces:/home/prajesh/tbot_ws/install/turtlebot3_simulations:/home/prajesh/tbot_ws/install/turtlebot3_gazebo:/home/prajesh/tbot_ws/install/turtlebot3_fake_node:/home/prajesh/my_ws/install/py_server_test:/home/prajesh/my_ws/install/py_final_project:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[11.519074] (cpp_nav2_control) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.521596] (cpp_nav2_control) StdoutLine: {'line': b'-- Installing: /home/prajesh/slam_ws/install/cpp_nav2_control/lib/cpp_nav2_control/random_goal_generator\n'}
+[11.524916] (cpp_nav2_control) StdoutLine: {'line': b'-- Set runtime path of "/home/prajesh/slam_ws/install/cpp_nav2_control/lib/cpp_nav2_control/random_goal_generator" to ""\n'}
+[11.525291] (cpp_nav2_control) StdoutLine: {'line': b'-- Up-to-date: /home/prajesh/slam_ws/install/cpp_nav2_control/share/ament_index/resource_index/package_run_dependencies/cpp_nav2_control\n'}
+[11.525448] (cpp_nav2_control) StdoutLine: {'line': b'-- Up-to-date: /home/prajesh/slam_ws/install/cpp_nav2_control/share/ament_index/resource_index/parent_prefix_path/cpp_nav2_control\n'}
+[11.525508] (cpp_nav2_control) StdoutLine: {'line': b'-- Up-to-date: /home/prajesh/slam_ws/install/cpp_nav2_control/share/cpp_nav2_control/environment/ament_prefix_path.sh\n'}
+[11.525583] (cpp_nav2_control) StdoutLine: {'line': b'-- Up-to-date: /home/prajesh/slam_ws/install/cpp_nav2_control/share/cpp_nav2_control/environment/ament_prefix_path.dsv\n'}
+[11.527016] (cpp_nav2_control) StdoutLine: {'line': b'-- Up-to-date: /home/prajesh/slam_ws/install/cpp_nav2_control/share/cpp_nav2_control/environment/path.sh\n'}
+[11.527322] (cpp_nav2_control) StdoutLine: {'line': b'-- Up-to-date: /home/prajesh/slam_ws/install/cpp_nav2_control/share/cpp_nav2_control/environment/path.dsv\n'}
+[11.527460] (cpp_nav2_control) StdoutLine: {'line': b'-- Up-to-date: /home/prajesh/slam_ws/install/cpp_nav2_control/share/cpp_nav2_control/local_setup.bash\n'}
+[11.527589] (cpp_nav2_control) StdoutLine: {'line': b'-- Up-to-date: /home/prajesh/slam_ws/install/cpp_nav2_control/share/cpp_nav2_control/local_setup.sh\n'}
+[11.527732] (cpp_nav2_control) StdoutLine: {'line': b'-- Up-to-date: /home/prajesh/slam_ws/install/cpp_nav2_control/share/cpp_nav2_control/local_setup.zsh\n'}
+[11.527861] (cpp_nav2_control) StdoutLine: {'line': b'-- Up-to-date: /home/prajesh/slam_ws/install/cpp_nav2_control/share/cpp_nav2_control/local_setup.dsv\n'}
+[11.528008] (cpp_nav2_control) StdoutLine: {'line': b'-- Installing: /home/prajesh/slam_ws/install/cpp_nav2_control/share/cpp_nav2_control/package.dsv\n'}
+[11.528135] (cpp_nav2_control) StdoutLine: {'line': b'-- Up-to-date: /home/prajesh/slam_ws/install/cpp_nav2_control/share/ament_index/resource_index/packages/cpp_nav2_control\n'}
+[11.528232] (cpp_nav2_control) StdoutLine: {'line': b'-- Up-to-date: /home/prajesh/slam_ws/install/cpp_nav2_control/share/cpp_nav2_control/cmake/cpp_nav2_controlConfig.cmake\n'}
+[11.528342] (cpp_nav2_control) StdoutLine: {'line': b'-- Up-to-date: /home/prajesh/slam_ws/install/cpp_nav2_control/share/cpp_nav2_control/cmake/cpp_nav2_controlConfig-version.cmake\n'}
+[11.528440] (cpp_nav2_control) StdoutLine: {'line': b'-- Up-to-date: /home/prajesh/slam_ws/install/cpp_nav2_control/share/cpp_nav2_control/package.xml\n'}
+[11.532056] (cpp_nav2_control) CommandEnded: {'returncode': 0}
+[11.578014] (-) TimerEvent: {}
+[11.582071] (cpp_nav2_control) JobEnded: {'identifier': 'cpp_nav2_control', 'rc': 0}
+[11.583497] (-) EventReactorShutdown: {}
