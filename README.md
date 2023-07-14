@@ -16,8 +16,8 @@ Autonomous navigation in a custom map using ROS2 humble
 
 # Map:
 
-![map]()
+![map](https://github.com/Prajesh7/ROS2_NAV2_project/blob/main/map.png)
 
 # Gazebo Simulation:
 
-![gazebo]()
+![gazebo](https://github.com/Prajesh7/ROS2_NAV2_project/blob/main/gazebo.png)
